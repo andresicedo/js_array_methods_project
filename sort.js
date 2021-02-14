@@ -12,8 +12,43 @@ it depends on the implementation. - MDN
 Syntax: arr.sort([compareFunction])
 */
 let cities = ["Houston", "Dallas", "Austin", "El Paso", "San Antonio"];
-// numbers.sort((a, b) => a - b);
-cities.sort().reverse();
-console.log(cities);
+
+// cities.sort()
+// console.log(cities)
+// //sort descending order
+// cities.sort().reverse()
+// console.log(cities);
+// // sort by length 
+// cities.sort().sort((a, b) => a.length - b.length);
+// console.log(cities);
+// // sort by length in descending order
+// cities.sort((a, b) => b.length - a.length);
+// console.log(cities)
+
 
 //sorting numbers
+
+// let numbers = [21, 21.5, 20, -5, 0];
+
+// //sort
+// numbers.sort();
+// console.log(numbers);
+
+// //sort descending
+// numbers.sort((a, b) => b - a);
+// console.log(numbers);
+
+//sorting array of objects
+let ranking = [
+    {
+        first: "austin", 
+        second: "dallas"
+    }, 
+    {
+        first: "houston", 
+        second: "san antonio"
+    }
+];
+
+ranking.sort((a, b) => b.first.length - a.first.length);
+console.log(ranking);
