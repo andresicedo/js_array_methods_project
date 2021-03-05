@@ -5,7 +5,6 @@ results of calling a provided function on every element
 in the calling array. - MDN
 
 Syntax:
-
 let newArray = arr.map(callback(currentValue[, index[, array]]) {
   // return element for newArray, after executing something
 }[, thisArg]);
