@@ -26,7 +26,7 @@ let cities = ["Houston", "Dallas", "Austin", "El Paso", "San Antonio"];
 // console.log(cities)
 
 
-//sorting numbers
+// //sorting numbers
 
 // let numbers = [21, 21.5, 20, -5, 0];
 
