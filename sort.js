@@ -13,17 +13,17 @@ Syntax: arr.sort([compareFunction])
 */
 let cities = ["Houston", "Dallas", "Austin", "El Paso", "San Antonio"];
 
-// cities.sort()
-// console.log(cities)
-// //sort descending order
-// cities.sort().reverse()
-// console.log(cities);
-// // sort by length 
-// cities.sort().sort((a, b) => a.length - b.length);
-// console.log(cities);
-// // sort by length in descending order
-// cities.sort((a, b) => b.length - a.length);
-// console.log(cities)
+cities.sort()
+console.log(cities)
+//sort descending order
+cities.sort().reverse()
+console.log(cities);
+// sort by length 
+cities.sort().sort((a, b) => a.length - b.length);
+console.log(cities);
+// sort by length in descending order
+cities.sort((a, b) => b.length - a.length);
+console.log(cities)
 
 
 // //sorting numbers
@@ -39,16 +39,16 @@ let cities = ["Houston", "Dallas", "Austin", "El Paso", "San Antonio"];
 // console.log(numbers);
 
 //sorting array of objects
-let ranking = [
-    {
-        first: "austin", 
-        second: "dallas"
-    }, 
-    {
-        first: "houston", 
-        second: "san antonio"
-    }
-];
+// let ranking = [
+//     {
+//         first: "austin", 
+//         second: "dallas"
+//     }, 
+//     {
+//         first: "houston", 
+//         second: "san antonio"
+//     }
+// ];
 
-ranking.sort((a, b) => b.first.length - a.first.length);
-console.log(ranking);
+// ranking.sort((a, b) => b.first.length - a.first.length);
+// console.log(ranking);

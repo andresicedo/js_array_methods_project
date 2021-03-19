@@ -16,5 +16,5 @@ if (cities.includes("Houston", "Austin", "San Antonio", "El Paso")) {
 }
 
 
-//console.log(cities.includes("Houston"));
+console.log(cities.includes("Houston"));
 
