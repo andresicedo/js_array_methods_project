@@ -11,8 +11,8 @@ const cities = ["Houston", [["Dallas", "Austin"], ["El Paso", "San Antonio"]]];
 let oneArray = cities.flat();
 console.log(oneArray);//[ 'Houston', 'Dallas', 'Austin', 'El Paso', 'San Antonio' ]
 
-// let twoArrays = cities.flat(1);
-// console.log(twoArrays);
-// //[ 'Houston', [ 'Dallas', 'Austin' ], [ 'El Paso', 'San Antonio' ] ]
+let twoArrays = cities.flat(1);
+console.log(twoArrays);
+//[ 'Houston', [ 'Dallas', 'Austin' ], [ 'El Paso', 'San Antonio' ] ]
 
 
