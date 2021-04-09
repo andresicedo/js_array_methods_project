@@ -9,17 +9,17 @@ Syntax - arr.fill(value[, start[, end]])
 
 const cities = ["Houston", "Dallas", "Austin", "El Paso", "San Antonio"];
 
-// //array of numbers
-// let houston = cities.fill(281);
-// console.log(houston)
+//array of numbers
+let houston = cities.fill(281);
+console.log(houston)
 
-// //array of updated strings
-// var state = cities.fill("Texas");
-// console.log(state)
+//array of updated strings
+var state = cities.fill("Texas");
+console.log(state)
 
-// //array of updated strings, called from start to end
-// let number = cities.fill(21, 1, 4)
-// console.log(number);
+//array of updated strings, called from start to end
+let number = cities.fill(21, 1, 4)
+console.log(number);
 
 
 
